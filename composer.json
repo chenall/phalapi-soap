@@ -1,0 +1,24 @@
+{
+    "name": "chenall/phalapi-soap",
+    "description": "PhalApi 2.x 扩展类库：利用SOAP搭建Web Services",
+    "type": "library",
+    "keywords": [
+        "phalapi", "phalapi-soap", "soap", "wsdl"
+    ],
+    "license": "GPL-3.0+",
+    "minimum-stability": "dev",
+    "homepage": "https://www.phalapi.net/",
+    "authors": [
+        {
+            "name": "chenall",
+            "email": "chenall.cn@gmail.com",
+            "homepage": "http://chenall.net/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhalApi\\SOAP\\": "./"
+        }
+    } 
+}
