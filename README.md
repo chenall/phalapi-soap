@@ -5,11 +5,11 @@ PhalApi SOAP扩展.
 
 ### 安装
 
-修改项目下的composer.json文件，并添加：
+在项目下直接运行以下命令即可完成扩展安装。
 
-    "chenall/phalapi-soap":"dev-master"
-
-然后执行composer update。 
+```
+composer require chenall/phalapi-soap
+```
 
 ### 配置
 
